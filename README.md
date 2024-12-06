@@ -16,7 +16,9 @@ The team of solution architects has decided to:
 - Create an AWS Lambda function in the backup Region to promote the read replica and modify the Auto Scaling group values.
 - Configure Route 53 with a health check that monitors the web application and sends an Amazon Simple Notification Service (Amazon SNS) notification to the Lambda function when the health check status is unhealthy.
 - Update the application’s Route 53 record with a failover policy that routes traffic to the ALB in the backup Region when a health check failure occurs.
+
 The goal of this project is to realize this architecture and deploy it using terraform.
+
 The purpose of this project is to implement a highly available web application architecture that can fail over between two AWS regions. The architecture includes: 
 - **EC2 instances** in an **Auto Scaling Group**. 
 - **Application Load Balancer (ALB)** to distribute traffic. 
@@ -52,7 +54,7 @@ Before deploying this project, ensure you have the following installed:
 ## **Deployment instructions**
 1.  **Clone the repository**
 ```bash
-git clone https://github.com/narcissenjeufack/aws-automatic-failover
+git clone https://github.com/narcissenjeufack/aws-automatic-failover-with-terraform-deployment
 cd aws-failover-api
 ```
 2. **Configure variables**
@@ -128,4 +130,4 @@ aws-automatic-failover/
 This project is licensed under the MIT License. See the LICENSE file for details.
 ---
 ## **Contact**
-For issues or suggestions, please create a GitHub issue or contact me at njeufacknarcisse1@example.com.
+For issues or suggestions, please create a GitHub issue or contact me at njeufacknarcisse1@gmail.com.
