@@ -128,4 +128,4 @@ aws-automatic-failover/
 This project is licensed under the MIT License. See the LICENSE file for details.
 ---
 ## **Contact**
-For issues or suggestions, please create a GitHub issue or contact me at njeufacknarcisse1@example.com.
+For issues or suggestions, please create a GitHub issue or contact me at njeufacknarcisse1@gmail.com.
