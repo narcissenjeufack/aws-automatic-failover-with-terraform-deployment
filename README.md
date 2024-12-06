@@ -54,7 +54,7 @@ Before deploying this project, ensure you have the following installed:
 ## **Deployment instructions**
 1.  **Clone the repository**
 ```bash
-git clone [https://github.com/narcissenjeufack/aws-failover-api.git](https://github.com/narcissenjeufack/aws-automatic-failover-with-terraform-deployment)
+git clone https://github.com/narcissenjeufack/aws-automatic-failover-with-terraform-deployment
 cd aws-failover-api
 ```
 2. **Configure variables**
